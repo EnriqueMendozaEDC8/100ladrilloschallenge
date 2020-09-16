@@ -28,7 +28,6 @@
         const cart = await fetch(API_URI + 'cart/' + user.id + '/');
         data = await cart.json();
         items = data.items;
-        console.log(data);
     }
 
     function cartContinueToNotice() {
@@ -47,7 +46,6 @@
             body: JSON.stringify({"idBroker":user.id})
         });
         const content = await response.json();
-        console.log(content);
 
         cartInformation = "block";
         cartPay = "none";

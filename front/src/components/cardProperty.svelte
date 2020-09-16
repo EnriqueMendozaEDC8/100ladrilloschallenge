@@ -12,7 +12,6 @@
     let quantity = 1;
     async function addToCart() {
         let user = get(USER);
-        console.log(user,id)
         const response = await fetch(API_URI + 'property/brick/' + id + '/');
         const brick = await response.json();
         let data = {
@@ -20,7 +19,6 @@
             idBroker:user.id,
             idBrick:brick.id
         }
-        console.log(brick);
         await fetch(API_URI+'cart/add/',{
             method: 'POST',
             body: JSON.stringify(data)

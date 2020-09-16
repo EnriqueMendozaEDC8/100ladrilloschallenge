@@ -10,7 +10,6 @@
             body: JSON.stringify({"idBroker":broker,"idBrick":brick})
         });
         const content = await response.json();
-        console.log(content);
     }
 </script>
 
