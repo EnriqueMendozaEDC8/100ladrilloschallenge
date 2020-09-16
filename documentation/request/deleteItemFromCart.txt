@@ -1,0 +1,15 @@
+{base_url}/api/cart/delete/
+method: POST
+request:
+{
+    "idBroker":1,
+    "idBrick":5
+}
+
+response:
+{
+    "quantity": 5,
+    "brick": 5,
+    "broker": 1,
+    "deleted": true
+}

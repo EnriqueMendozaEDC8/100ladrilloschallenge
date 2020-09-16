@@ -1,0 +1,14 @@
+{base_url}/api/brick/<int:idBrick>
+method: GET
+request:
+
+response:
+{
+    "id": 5,
+    "price": 15900.0,
+    "existence": 100,
+    "property": 1,
+    "propertyName": "bridge",
+    "broker": 1,
+    "brokerName": "Enrique Mendoza"
+}

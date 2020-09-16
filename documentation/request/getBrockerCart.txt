@@ -1,0 +1,24 @@
+{base_url}/api/cart/<int:broker>
+method: GET
+request:
+
+response:
+{
+    "id": 1,
+    "name": "Enrique Mendoza",
+    "items": [
+        {
+            "property": "bridge",
+            "brickId": 5,
+            "price": 15900.0,
+            "quantity": 2
+        },
+        {
+            "property": "drugstore",
+            "brickId": 6,
+            "price": 4325.0,
+            "quantity": 1
+        }
+    ],
+    "total": 36125.0
+}

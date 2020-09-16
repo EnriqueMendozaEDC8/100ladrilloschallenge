@@ -1,0 +1,13 @@
+{base_url}/api/broker/
+method: POST
+request:
+{
+    "email":"enrique.510.06@gmail.com"
+}
+
+response:
+{
+    "id": 1,
+    "email": "enrique.510.06@gmail.com",
+    "name": "Enrique Mendoza"
+}

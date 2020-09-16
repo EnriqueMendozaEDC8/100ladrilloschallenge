@@ -1,0 +1,23 @@
+{base_url}/api/brick/
+method: GET
+request:
+
+response:
+{
+    "propertys": [
+        {
+            "id": 5,
+            "price": 15900.0,
+            "existence": 100,
+            "property": "bridge",
+            "broker": "Enrique Mendoza"
+        },
+        {
+            "id": 6,
+            "price": 4325.0,
+            "existence": 123,
+            "property": "drugstore",
+            "broker": "Enrique Mendoza"
+        }
+    ]
+}

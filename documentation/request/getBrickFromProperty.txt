@@ -1,0 +1,8 @@
+{base_url}/api/property/brick/<int:property>/
+method: GET
+request:
+
+response:
+{
+    "id": 5
+}

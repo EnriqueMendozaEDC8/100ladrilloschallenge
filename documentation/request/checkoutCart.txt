@@ -1,0 +1,11 @@
+{base_url}/api/cart/checkout/
+method: POST
+request:
+{
+    "idBroker":1,
+}
+
+response:
+{
+    "message": "the products already checkout"
+}

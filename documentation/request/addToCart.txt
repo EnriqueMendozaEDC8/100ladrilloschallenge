@@ -1,0 +1,16 @@
+{base_url}/api/cart/add/
+method: POST
+request:
+{
+    "idBroker":1,
+    "idBrick":5,
+    "quantity":3
+
+}
+
+response:
+{
+    "quantity": 5,
+    "brick": 5,
+    "broker": 1
+}
