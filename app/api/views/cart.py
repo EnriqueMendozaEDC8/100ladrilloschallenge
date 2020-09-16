@@ -171,8 +171,8 @@ def reduceExistence(id,quantity):
     brick.save()
 
 def addBrickToBrocker(quantity,property,broker):
-    if(BrockerBricks.objects.filter(quantity=quantity,property=property).exists()):
-        brokerBrick = BrockerBricks.objects.get(quantity=quantity,property=property)
+    if(BrockerBricks.objects.filter(broker=broker,property=property).exists()):
+        brokerBrick = BrockerBricks.objects.get(broker=broker,property=property)
         brokerBrick.quantity += quantity
         brokerBrick.save()
     else:
